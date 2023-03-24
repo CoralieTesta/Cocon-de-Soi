@@ -4,6 +4,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   height:550px;
+  box-shadow: 0 10px 8px rgb(86, 83, 83);
 }
  
   .textContainer {
