@@ -1,5 +1,5 @@
 
-import massageImage from "../../assets/massage_vertical.jpg"
+import massageImage from "../../assets/massage_vertical2.jpg"
 import { MainProposition} from "../../components/MainProposition/MainProposition";
 
 
