@@ -1,0 +1,118 @@
+
+.nav {
+    display: flex;
+    justify-content: center;
+    height: 120px;
+    background-color: #1F3E3E;
+    border-top: 5px solid #E0AE80;
+}
+
+.buttons {
+    margin: auto;
+    height: 75px;
+    width: 95%;
+    display: flex;
+    justify-content: flex-end;
+    margin: 10px 0 30px 0;
+    font-weight: 900;
+    flex-wrap: wrap;
+    padding-right: 25px;
+    padding-top: 10px;
+}
+
+.btn {
+    border: transparent;
+    width: 140px;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 18px;
+    color:white;
+}
+
+.btn:hover {
+    color: #F6E9DB;
+}
+
+.btn:active {
+    background-color: bisque;
+}
+
+.btnServices {
+    border: transparent;
+    width: 140px;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 18px;
+    position: relative;
+    color:white;
+}
+
+.btnServices:hover {
+    color: #F6E9DB;
+}
+
+.subButtonsServicesContainer {
+    position: absolute;
+    top:55px;
+    left: -1px;
+    z-index: 9;
+}
+
+.subBtnServices {
+    border: 1px solid #797a67;
+    width: 142px;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 18px;
+    height: 50px;
+    color:white;
+}
+
+.subBtnServices:hover {
+    color: #F6E9DB;
+}
+
+.expandIcon {
+    padding-top: 3px;
+}
+
+.servicesBox {
+    display: flex;
+    justify-content: center;
+}
+
+.services {
+    padding-top: 4px;
+}
+@media screen and (max-width: 655px) {
+    .nav {
+        height: 150px;
+    }
+    .buttons {
+        height: 100px;
+    }
+    .btn {
+        border: 1px solid #F6E9DB;
+        margin-top: 6px;
+        border-radius: 5px;
+        margin-right: 3px;
+    }
+    .btnServices {
+        border: 1px solid #F6E9DB;
+        margin-top: 6px;
+        border-radius: 5px;
+        margin-right: 3px;
+    }
+    .subButtonsServicesContainer {
+        top:42px;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .subButtonsServicesContainer {
+        top:26px;
+    }
+    .expandIcon {
+        padding-top: 0;
+    }
+}

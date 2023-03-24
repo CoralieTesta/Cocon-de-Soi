@@ -1,0 +1,16 @@
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    height: 40px;
+    background-color: #F6E9DB;
+}
+
+
+@media screen and (max-width: 380px) {
+    .container {
+        display: block;
+        height: 35px;
+        font-size: 16px;
+    }
+}

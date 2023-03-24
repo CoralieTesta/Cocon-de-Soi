@@ -1,0 +1,48 @@
+.section {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    font-size: 22px;
+    width: 650px;
+    margin: auto;
+    
+}
+
+.container {
+    background-color: #EAD1DD;
+    padding: 10px;
+    box-shadow: 5px 10px 14px #E0AE80;
+    margin-bottom: 40px;
+}
+
+.hr {
+    margin-bottom: 25px;
+}
+
+.title{
+    font-size: 30px;
+    font-weight: 650;
+    padding-left: 15px;
+}
+
+.li {
+    margin-bottom: 7px;
+}
+
+.bold {
+    font-weight: 600;
+}
+
+.flowerIcon {
+    padding-right: 5px;
+}
+
+@media screen and (max-width: 700px) {
+    .section {
+        padding-top: 80px;
+        padding-bottom: 80px;
+        font-size: 22px;
+        width: 90%;
+        margin: auto;
+        
+    }
+}
