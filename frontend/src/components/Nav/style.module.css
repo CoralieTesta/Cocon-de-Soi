@@ -109,6 +109,9 @@
 }
 
 @media screen and (max-width: 520px) {
+    .nav {
+        height: 200px;
+    }
     .subButtonsServicesContainer {
         top:26px;
     }
