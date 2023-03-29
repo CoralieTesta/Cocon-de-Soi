@@ -1,0 +1,49 @@
+.container {
+    padding-bottom: 80px;
+}
+
+.box {
+    background-color: #EAD1DD;
+    width: 45%;
+    min-width: 320px;
+    border-radius: 10px;
+    box-shadow: 0px 3px #E0AE80;
+    padding: 10px;
+    margin: auto;
+    position: relative;
+    padding-bottom: 20px;
+}
+
+.logo {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.title {
+    font-size: 35px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.recommendation {
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: 500;
+}
+
+.p {
+    display: flex;
+    font-size: 20px;
+    text-align: center;
+}
+
+.day {
+    width: 50%;
+    font-weight: 700;
+}
+
+.hours{
+    width: 50%;
+}

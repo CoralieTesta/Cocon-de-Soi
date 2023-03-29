@@ -1,6 +1,6 @@
 import s from "./style.module.css"
 import { BsTelephone } from "react-icons/bs"
-import { AiOutlineMail, AiOutlineClockCircle, AiOutlineFacebook } from "react-icons/ai"
+import { AiOutlineMail, AiOutlineFacebook } from "react-icons/ai"
 import { HiOutlineBuildingOffice } from "react-icons/hi2"
 import { Linking } from "react-native";
 import { ContactBoxB } from "../ContactBoxB/ContactBoxB";
@@ -19,7 +19,7 @@ export function ContactBoxListB() {
         window.open("https://maps.google.com?q="+45.95496070840246+","+5.339680837379062);
     }
     function facebookHandler() {
-        window.open("https://www.facebook.com/profile.php?id=100000102502294")
+        window.open("https://www.facebook.com/CocoondeSoi.fr")
     }
     return(
         <div className={s.container}>
@@ -40,11 +40,6 @@ export function ContactBoxListB() {
                 action={sendMapHandler} 
                 text="26 Avenue du Générale Sarrail, 01500 Ambérieu en Bugey"
                 title="Itinéraire" 
-            />
-            <ContactBoxB 
-                logo={<AiOutlineClockCircle size={50}/>}
-                text="Lundi - Vendredi, 9h00 - 16h00"
-                title="Horaire" 
             />
             <ContactBoxB 
                 logo={<AiOutlineFacebook size={50}/>}

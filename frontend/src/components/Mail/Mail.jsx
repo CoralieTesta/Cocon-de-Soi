@@ -3,7 +3,7 @@ import s from "./style.module.css"
 
 export function Mail() {
     function sendMailHandler() {
-        window.open('mailto:perrine.lacoste@hotmail.fr')
+        window.open('mailto:perrinecocondesoi@gmail.com')
     }
     return(
         <div    
@@ -12,7 +12,7 @@ export function Mail() {
         >
             <AiOutlineMail size={19}/>
             <div className={s.data}>
-                perrine.lacoste@hotmail.fr
+                perrinecocondesoi@gmail.com
             </div>
         </div>
     )

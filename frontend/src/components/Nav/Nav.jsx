@@ -20,6 +20,13 @@ export function Nav() {
                         className={s.btn}
                         style={{backgroundColor: window.location.pathname==="/"  ? "#376262":"#1F3E3E"}}
                     >
+                        Accueil
+                    </button>
+                    <button 
+                        onClick={() => navigate('/apropos')} 
+                        className={s.btn}
+                        style={{backgroundColor: window.location.pathname==="/apropos"  ? "#376262":"#1F3E3E"}}
+                    >
                         À propos
                     </button>
                     <button 

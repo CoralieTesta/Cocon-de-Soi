@@ -27,7 +27,7 @@ export function Footer() {
                     <Phone />
                 </div>
                 <div className={s.socialNetworks}>
-                    <a href="https://www.facebook.com/profile.php?id=100000102502294" target="_blank" rel="noopener noreferrer"><BsFacebook style={{color:"white"}} size={25} className={s.facebookLogo}/></a>
+                    <a href="https://www.facebook.com/CocoondeSoi.fr" target="_blank" rel="noopener noreferrer"><BsFacebook style={{color:"white"}} size={25} className={s.facebookLogo}/></a>
                 </div>
             </div>
         </footer>
