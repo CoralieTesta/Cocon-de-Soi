@@ -7,87 +7,79 @@ import { useState } from "react"
 export function Nav() {
     const navigate = useNavigate()
     const [isOpenServices, setIsOpenServices] = useState(false)
+    const [isOpenPrices, setIsOpenPrices] = useState(false)
     function toggleOpenServices() {
         isOpenServices ? setIsOpenServices(false) : setIsOpenServices(true)
+        
+    }
+    function toggleOpenPrices() {
+        isOpenPrices ? setIsOpenPrices(false) : setIsOpenPrices(true)
+        console.log("prices",isOpenPrices)
     }
 
     return(
         <nav className={s.nav}>
                 <Logo />
                 <div className={s.buttons}>
-                    <button 
+                    <div 
                         onClick={() => navigate('/')} 
                         className={s.btn}
                         style={{backgroundColor: window.location.pathname==="/"  ? "#376262":"#1F3E3E"}}
                     >
                         Accueil
-                    </button>
-                    <button 
+                    </div>
+                    <div 
                         onClick={() => navigate('/apropos')} 
                         className={s.btn}
                         style={{backgroundColor: window.location.pathname==="/apropos"  ? "#376262":"#1F3E3E"}}
                     >
                         À propos
-                    </button>
+                    </div>
                     <button 
                         onClick={toggleOpenServices} 
-                        className={s.btnServices}
+                        className={s.btn}
                         style={{backgroundColor: 
                             (window.location.pathname==="/massage" ||window.location.pathname==="/dryNeedling"||
                             window.location.pathname==="/cupping"||window.location.pathname==="/douleursChroniques"||
                             window.location.pathname==="/troublesEquilibre"||window.location.pathname==="/formation")
                          ? "#376262":"#1F3E3E"}}
                     >
-                        <div className={s.servicesBox}><div className={s.services}>Services</div> <MdExpandMore size={25} className={s.expandIcon} /></div>
-                    
-                    {isOpenServices &&
-                    <div className={s.subButtonsServicesContainer}>
-                        <button 
-                        onClick={() => navigate('/massage')} 
-                        className={s.subBtnServices}
-                        style={{backgroundColor: window.location.pathname==="/massage" ? "#376262":"#1F3E3E"}}
-                        >
-                        ***
-                        </button>
-                        <button 
-                            onClick={() => navigate('/dryNeedling')} 
-                            className={s.subBtnServices}
-                            style={{backgroundColor: window.location.pathname==="/dryNeedling" ? "#376262":"#1F3E3E"}}
-                        >
-                        ***
-                        </button>
-                        <button 
-                        onClick={() => navigate('/cupping')} 
-                        className={s.subBtnServices}
-                        style={{backgroundColor: window.location.pathname==="/cupping" ? "#376262":"#1F3E3E"}}
-                    >
-                        ***
+                        Services                    
                     </button>
-                    <button 
-                        onClick={() => navigate('/douleursChroniques')} 
-                        className={s.subBtnServices}
-                        style={{backgroundColor: window.location.pathname==="/douleursChroniques" ? "#376262":"#1F3E3E"}}
-                    >
-                        ***
-                    </button>
-                    </div>
-                    }
-                    </button>
-                    <button 
-                        onClick={() => navigate('/tarifs')} 
+                    <div 
+                        onClick={toggleOpenPrices} 
                         className={s.btn}
                         style={{backgroundColor: window.location.pathname==="/tarifs" ? "#376262":"#1F3E3E"}}
                     >
-                        Tarifs
-                    </button>
+                        <div style={{display:'flex'}}><div>Tarifs</div> <MdExpandMore size={25} className={s.expandIcon} /></div>
                     
-                    <button 
+                    {isOpenPrices &&
+                    <div className={s.subButtonsContainer}>
+                        <button 
+                        onClick={() => navigate('/tarifs')} 
+                        className={s.subBtn}
+                        style={{backgroundColor: window.location.pathname==="/tarifs" ? "#376262":"#1F3E3E"}}
+                        >
+                        Tarifs de base + Forfaits
+                        </button>
+                        <button 
+                            onClick={() => navigate('/dryNeedling')} 
+                            className={s.subBtn}
+                            style={{backgroundColor: window.location.pathname==="/dryNeedling" ? "#376262":"#1F3E3E"}}
+                        >
+                        Cartes-cadeaux
+                        </button>
+                    </div>
+                    }
+                    </div>
+                    
+                    <div 
                         onClick={() => navigate('/contact')} 
                         className={s.btn}
                         style={{backgroundColor: window.location.pathname==="/contact" ? "#376262":"#1F3E3E"}}
                     >
                         Contact
-                    </button>
+                    </div>
                 </div>
         </nav>
     )
