@@ -1,0 +1,31 @@
+.container {
+    width: 95%;
+    margin: auto;
+    padding-bottom: 40px;
+}
+
+.img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
+    border-radius: 5px;
+}
+
+.btn {
+    display: block;
+    margin: auto;
+    cursor: pointer;
+    padding:5px;
+    background-color: #EAD1DD;
+    height: 40px;
+    width: 250px;
+    border: 1px solid #dca1bd;
+    border-radius: 5px;
+    font-size: 25px;
+    margin-top: 15px;
+}
+
+.btn:hover {
+    background-color: #dca1bd;
+}

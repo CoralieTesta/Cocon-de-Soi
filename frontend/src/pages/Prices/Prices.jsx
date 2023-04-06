@@ -1,7 +1,8 @@
 import { Proposition } from "../../components/Proposition/Proposition";
 import orchidee from "../../assets/orchidee1.jpg"
 import { PricesList } from "../../components/PricesList/PricesList";
-import { PricesTable } from "../../components/PricesTable/PricesTable";
+import bouddhaImage from "../../assets/bouddha2.jpg"
+import { Image } from "../../components/Image/Image";
 
 export function Prices() {
     return(
@@ -14,6 +15,7 @@ export function Prices() {
                 imgUrl={orchidee}
             />
             <PricesList/>
+            <Image src={bouddhaImage} alt="bouddha"/>
         </div>
     )
 }

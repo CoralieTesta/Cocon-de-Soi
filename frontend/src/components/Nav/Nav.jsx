@@ -6,12 +6,7 @@ import { useState } from "react"
 
 export function Nav() {
     const navigate = useNavigate()
-    const [isOpenServices, setIsOpenServices] = useState(false)
     const [isOpenPrices, setIsOpenPrices] = useState(false)
-    function toggleOpenServices() {
-        isOpenServices ? setIsOpenServices(false) : setIsOpenServices(true)
-        
-    }
     function toggleOpenPrices() {
         isOpenPrices ? setIsOpenPrices(false) : setIsOpenPrices(true)
         console.log("prices",isOpenPrices)
@@ -36,13 +31,9 @@ export function Nav() {
                         À propos
                     </div>
                     <button 
-                        onClick={toggleOpenServices} 
+                        onClick={() => navigate('/services')} 
                         className={s.btn}
-                        style={{backgroundColor: 
-                            (window.location.pathname==="/massage" ||window.location.pathname==="/dryNeedling"||
-                            window.location.pathname==="/cupping"||window.location.pathname==="/douleursChroniques"||
-                            window.location.pathname==="/troublesEquilibre"||window.location.pathname==="/formation")
-                         ? "#376262":"#1F3E3E"}}
+                        style={{backgroundColor: window.location.pathname==="/services" ? "#376262":"#1F3E3E"}}
                     >
                         Services                    
                     </button>

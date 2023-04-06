@@ -1,0 +1,20 @@
+.offers {
+    justify-content: center;
+}
+
+.p {
+    text-align: center;
+    font-size: 24px;
+}
+
+.offers {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.link {
+    text-decoration: none;
+    font-style: italic;
+    color:#E0AE80;
+}
+

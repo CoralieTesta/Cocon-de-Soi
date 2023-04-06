@@ -1,6 +1,6 @@
 import s from "./style.module.css"
 
-export function Proposition({title, p1, p2, p3, p4, p5, imgUrl}) {
+export function Proposition({title, p1, p2, p3, p4, p5, imgUrl, height}) {
     return(
         <section 
             style={{
@@ -8,7 +8,8 @@ export function Proposition({title, p1, p2, p3, p4, p5, imgUrl}) {
                 width:'100%',
                 backgroundPosition: 'center',
                 backgroundRepeat: 'no-repeat',
-                backgroundSize: 'cover'
+                backgroundSize: 'cover',
+                height:`${height}`
             }}
         >
             <div className={s.content}>

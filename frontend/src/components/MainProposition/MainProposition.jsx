@@ -10,9 +10,9 @@ export function MainProposition({title, p1, p2, imgUrl}) {
             className={s.section}
         >
             <div className={s.textContainer}>
-                <h1 className={s.h1}>
+                <p className={s.h1}>
                     {title}
-                </h1>
+                </p>
                 <p className={s.p}>
                     {p1}
                 </p>

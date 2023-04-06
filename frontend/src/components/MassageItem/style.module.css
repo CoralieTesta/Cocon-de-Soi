@@ -1,0 +1,39 @@
+.container {
+    width: 320px;
+    margin: 15px 25px;
+    background-color: #EAD1DD;
+    padding: 15px;
+    box-shadow: 3px 5px #E0AE80;
+}
+
+.title {
+    font-weight: 500;
+    font-size: 25px;
+    text-align: center;
+}
+
+.text {
+    font-size: 20px;
+}
+
+.btn {
+    background-color: #EAD1DD;
+    width: 50%;
+    margin: auto;
+    cursor: pointer;
+    border-radius: 10px;
+    padding: 5px 2px;
+    font-weight: 500;
+    font-size: 18px;
+    border: 1px solid #E0AE80;
+    transition: transform .2s;
+}
+
+.btn:hover {
+    background-color: rgb(99, 129, 100);
+    transform: scale(1.1);
+}
+.link {
+    color: white;
+    text-decoration: none;
+}

@@ -1,0 +1,30 @@
+
+
+.h1 {
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.text {
+    line-height: 36px;
+}
+
+.ul {
+    list-style: none;
+    text-align: center;
+}
+
+.p { 
+    margin-bottom: 40px;
+}
+
+.link {
+    text-decoration: none;
+    font-style: italic;
+    color:#E0AE80;
+}
+
+.banner {
+    margin-top: 15px;
+    margin-bottom: 60px;
+}
