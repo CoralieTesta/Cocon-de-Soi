@@ -55,7 +55,7 @@
     }
     .footer {
         flex-direction: column;
-        height: 650px;
+        height: 600px;
     }
     .mailPhone {
         flex-direction: column;
