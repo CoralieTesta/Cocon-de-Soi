@@ -11,7 +11,7 @@ export function Image({src,alt}) {
                 className={s.btn}
                 onClick={() => navigate("/contact")}
             >
-                Je suis intéressé !
+                Je suis intéressé(e) !
             </button>
         </div>
     )

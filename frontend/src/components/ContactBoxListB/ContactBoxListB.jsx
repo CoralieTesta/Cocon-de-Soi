@@ -4,6 +4,7 @@ import { AiOutlineMail, AiOutlineFacebook } from "react-icons/ai"
 import { HiOutlineBuildingOffice } from "react-icons/hi2"
 import { Linking } from "react-native";
 import { ContactBoxB } from "../ContactBoxB/ContactBoxB";
+import { ContactBoxBComplement } from "../ContactBoxBComplement/ContactBoxBComplement";
 
 
 
@@ -41,7 +42,12 @@ export function ContactBoxListB() {
                 text="26 Avenue du Générale Sarrail, 01500 Ambérieu en Bugey"
                 title="Itinéraire" 
             />
-            <ContactBoxB 
+            <ContactBoxBComplement  
+                logo={<HiOutlineBuildingOffice size={50}/>}
+                text="Je peux également vous recevoir sur Chazey sur Ain"
+                title="Complément d'adresse" 
+            />
+            <ContactBoxB
                 logo={<AiOutlineFacebook size={50}/>}
                 action={facebookHandler} 
                 text="Perrine Cocon de Soi"

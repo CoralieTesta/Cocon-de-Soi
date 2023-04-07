@@ -54,9 +54,9 @@ export function Nav() {
                         Tarifs de base + Forfaits
                         </button>
                         <button 
-                            onClick={() => navigate('/dryNeedling')} 
+                            onClick={() => navigate('/bon-cadeau')} 
                             className={s.subBtn}
-                            style={{backgroundColor: window.location.pathname==="/dryNeedling" ? "#376262":"#1F3E3E"}}
+                            style={{backgroundColor: window.location.pathname==="/bon-cadeau" ? "#376262":"#1F3E3E"}}
                         >
                         Cartes-cadeaux
                         </button>

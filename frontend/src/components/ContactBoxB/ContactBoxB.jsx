@@ -1,6 +1,6 @@
 import s from "./style.module.css"
 
-export function ContactBoxB({logo, title, text, action}) {
+export function ContactBoxB({logo, title, text, action, fontSize}) {
     return(
         <div className={s.container} onClick={action}>
             <div className={s.logo}>

@@ -3,6 +3,7 @@ import contact from "../../assets/contact.jpg"
 import { Proposition } from "../../components/Proposition/Proposition";
 import { OpenHoursBox } from "../../components/OpenHoursBox/OpenHoursBox";
 import { AiOutlineClockCircle } from "react-icons/ai";
+import { Thanks } from "../../components/Thanks/Thanks";
 
 export function Contact() {
     
@@ -17,6 +18,7 @@ export function Contact() {
                 logo={<AiOutlineClockCircle size={50}/>}
                 title="Horaire" 
             />
+            <Thanks/>
         </div>
     )
 }
