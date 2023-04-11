@@ -14,7 +14,7 @@ export function HomeContent() {
             </h1>
             <div className={s.text}>
                 <p className={s.p}>
-                    Je suis Perrine, passionnée par l’équilibre et l’entraide. Vous trouverez sur ce site les <Link to="/services" className={s.link}> prestations de massages énergétiques bien-être, chinois et autres</Link> que je propose pour tous. Les femmes enceintes, personnes âgées et les nourrissons ont eux aussi ma porte grande ouverte. 
+                    Je suis Perrine, passionnée par l’équilibre et l’entraide. Vous trouverez sur ce site les <Link to="/services" className={s.link}> prestations de massages énergétiques bien-être, chinois et autres</Link> que je propose pour tous. Les femmes enceintes, les personnes âgées et les nourrissons ont eux aussi ma porte grande ouverte. 
                 </p>
                 <p className={s.p}>
                     Formée continuellement dans le domaine du bien-être, je répondrai naturellement à votre demande de relaxation et serai à votre écoute. Mon objectif ? Le même que le vôtre en venant sur ce site : prendre soin de vous. 
