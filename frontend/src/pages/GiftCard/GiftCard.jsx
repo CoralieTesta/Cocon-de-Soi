@@ -3,6 +3,7 @@ import { Proposition } from "../../components/Proposition/Proposition"
 import cadeauxImage from "../../assets/cadeaux2.jpg"
 import { GiftCardImage } from "../../components/GiftCardImage/GiftCardImage"
 import { GiftCardText } from "../../components/GiftCardText/GiftCardText"
+import DocumentMeta from "react-document-meta"
 
 export function GiftCard() {
     const meta = {
@@ -16,12 +17,14 @@ export function GiftCard() {
         }}
     return(
         <div style={{backgroundColor: '#F6E9DB'}}>
-            <Proposition
-                title="Pour le plaisir d'offrir le bien-être"
-                imgUrl={cadeauxImage}
-            />
-            <GiftCardText/>
-            <GiftCardImage src={imageBonCadeau}/>
+            <DocumentMeta {...meta}>
+                <Proposition
+                    title="Pour le plaisir d'offrir le bien-être"
+                    imgUrl={cadeauxImage}
+                />
+                <GiftCardText/>
+                <GiftCardImage src={imageBonCadeau}/>
+            </DocumentMeta>
         </div>
     )
 }
