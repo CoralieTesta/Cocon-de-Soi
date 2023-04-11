@@ -1,5 +1,10 @@
 .question {
-    font-size: 25px;
     color:#E0AE80;
     margin-top: 50px;
+}
+
+.link {
+    text-decoration: none;
+    font-style: italic;
+    color:#E0AE80;
 }
