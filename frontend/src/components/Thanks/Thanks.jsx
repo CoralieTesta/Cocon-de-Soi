@@ -11,11 +11,11 @@ export function Thanks() {
                         <span className={s.pointer} onClick={()=>window.open('mailto:testa.webdeveloper@gmail.com')}> <AiOutlineMail size={18}/> testa.webdeveloper@gmail.com</span>
                     </p>
                     <p>
-                        Yoan Solo pour les textes et le référencement<br/>
+                        Yoan Cordonnier (L’Enthousiaste) pour les textes et le référencement<br/>
                         <span className={s.pointer} onClick={()=>window.open('mailto:ecriv.enthousiaste@gmail.com')}> <AiOutlineMail size={18}/> ecriv.enthousiaste@gmail.com</span>
                     </p>
                     <p style={{marginTop:'50px'}}>
-                        Mille Mercis pour votre collaboration précieuse, votre écoute, vos propositions et votre professionnalise ! 🥰
+                        Mille Mercis pour votre collaboration précieuse, votre écoute, vos propositions et votre professionnalisme ! 🥰
                     </p>
                 </div>
             </div>

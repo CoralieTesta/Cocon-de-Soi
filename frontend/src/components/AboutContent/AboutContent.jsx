@@ -29,13 +29,12 @@ export function AboutContent() {
             Prenez le temps de voir comment Ambérieu-en-Bugey et ses villes voisines préservent leur patrimoine architectural et culturel, observez-vous ensuite de la même manière. Faites-vous l'effort bienveillant de préserver votre corps et votre esprit face au temps qui vous change et vous bouleverse ? Votre enveloppe physique a, comme un bâtiment, besoin d'être entretenue si elle veut faire face au temps. Quant à votre esprit, il a lui besoin d'un corps solide et en bonne santé pour rester intact. 
         </p>
         <p>
-            Cocon de Soi est un salon de massage à Ambérieu-en-Bugey où vous vous sentez bien et prenez soin de vous. Mes expériences dans le bien-être et dans l'aide à la personne me permettent aussi de comprendre vos maux et vous accompagner vers un état de relaxation complet. J'aime l'image ou chaque individu explore un relâchement total à l'intérieur de leur cocon de soie, pour ainsi devenir un papillon vivant son bien-être au quotidien. Pour ainsi dire, je vous invite à la découverte d'un « moi » intérieur en meilleur état, qui se découvre et s'émerveille. Le massage énergétique fait le reste, le masseur est l'intermédiaire d'un savoir qui connaît votre corps et son fonctionnement, un savoir qui est la clé de la santé au quotidien, la clé du bien-être.
+            Cocon de Soi est un salon de massage à Ambérieu-en-Bugey où vous vous sentez bien et prenez soin de vous. Mes expériences dans le bien-être et dans l'aide à la personne me permettent aussi de comprendre vos maux et vous accompagner vers un état de relaxation complet. J'aime l'image ou chaque individu explore un relâchement total à l'intérieur de leur cocon de soie afin de devenir un papillon vivant son bien-être au quotidien. Pour ainsi dire, je vous invite à la découverte d'un « moi » intérieur en meilleur état, qui se découvre et s'émerveille. Le massage énergétique fait le reste, le masseur est l'intermédiaire d'un savoir qui connaît votre corps et son fonctionnement, un savoir qui est la clé de la santé au quotidien, la clé du bien-être.
         </p>
     </>
     return(
         <div>
             <Article
-                title="Qui suis-je ?"
                 text={textDescriptionPerrineLacoste}
                 src={photoProfil}
                 textBtn="Contactez-moi"

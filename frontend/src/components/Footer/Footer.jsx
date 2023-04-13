@@ -36,7 +36,7 @@ export function Footer() {
                         <span className={s.pointer} onClick={()=>window.open('mailto:testa.webdeveloper@gmail.com')}> <AiOutlineMail size={18}/> testa.webdeveloper@gmail.com</span>
                     </p>
                     <p>
-                        Rédacteur web du site: Yoan Solo <br/>
+                        Rédacteur web du site: Yoan Cordonnier (L’Enthousiaste) <br/>
                         <span className={s.pointer} onClick={()=>window.open('mailto:ecriv.enthousiaste@gmail.com')}> <AiOutlineMail size={18}/> ecriv.enthousiaste@gmail.com</span>
                     </p>
                 </div>

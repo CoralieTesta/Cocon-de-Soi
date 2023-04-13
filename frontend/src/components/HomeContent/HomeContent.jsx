@@ -19,16 +19,19 @@ export function HomeContent() {
                 <p className={s.p}>
                     Formée continuellement dans le domaine du bien-être, je répondrai naturellement à votre demande de relaxation et serai à votre écoute. Mon objectif ? Le même que le vôtre en venant sur ce site : prendre soin de vous. 
                 </p>
+
+                <h2>Le massage bien-être chinois</h2>
+
                 <p className={s.p}>
-                    La médecine traditionnelle chinoise existe depuis des milliers d’années. Elle représente des connaissances accumulées, transmises et pratiquées depuis plusieurs générations. Ainsi, elle a fait le tour du monde et ses preuves sur la santé du corps et de l’esprit. Les connaissances liées à cette médecine sont réparties en 5 branches : 
+                    La médecine traditionnelle chinoise existe depuis des milliers d’années. Elle représente des connaissances accumulées, transmises et pratiquées depuis plusieurs générations. Ainsi, elle a fait le tour du monde et ses preuves sur la santé du corps et de l’esprit. Les connaissances liées à cette médecine sont réparties en 5 <span style={{ whiteSpace: 'nowrap' }}>branches :</span> 
                     <ul className={s.ul}>
-                        <li><GiStoneStack/>le Chi Kong ;</li>
-                        <li><GiStoneStack/>la diététique ;</li>
-                        <li><GiStoneStack/>l’acupuncture ;</li>
-                        <li><GiStoneStack/>la pharmacopée ;</li>
-                        <li><GiStoneStack/>le massage Tuina, divisé en deux pratiques :</li>
+                        <li><GiStoneStack/>le Chi <span style={{ whiteSpace: 'nowrap' }}>Kong ;</span></li>
+                        <li><GiStoneStack/>la <span style={{ whiteSpace: 'nowrap' }}>diététique ;</span></li>
+                        <li><GiStoneStack/><span style={{ whiteSpace: 'nowrap' }}>l’acupuncture ;</span></li>
+                        <li><GiStoneStack/>la <span style={{ whiteSpace: 'nowrap' }}>pharmacopée ;</span></li>
+                        <li><GiStoneStack/>le massage Tuina, divisé en deux <span style={{ whiteSpace: 'nowrap' }}>pratiques :</span></li>
                     <ul className={s.ul}>
-                        <li><RxDotFilled/>le massage thérapeutique ;</li>
+                        <li><RxDotFilled/>le massage <span style={{ whiteSpace: 'nowrap' }}>thérapeutique ;</span></li>
                         <li><RxDotFilled/>le massage de confort.</li>
                     </ul>
                     </ul>
@@ -44,8 +47,11 @@ export function HomeContent() {
                     />
                     </div>
                 </p>
+
+                <h2>Autres massages et localisation du salon</h2>
+
                 <p className={s.p}>
-                    Afin de répondre à toutes vos attentes, je pratique aussi des massages énergétiques basés sur d’autres compétences. Le point commun entre toutes mes prestations est la prise en compte de l’être dans sa globalité : le corps, l’âme et l'esprit. 
+                    Afin de répondre à toutes vos attentes, je pratique aussi des massages énergétiques basés sur d’autres compétences. Le point commun entre toutes mes prestations est la prise en compte de l’être dans sa <span style={{ whiteSpace: 'nowrap' }}>globalité :</span> le corps, l’âme et l'esprit. 
                 </p>
                 <p className={s.p}>
                     Le prix ? <Link to="/tarifs" className={s.link}> Il est très accessible</Link>. Je fais d’abord le souhait que tout le monde puisse prendre soin de soi au travers d’un massage complet à un tarif abordable. Le soulagement, la détente et la sérénité au quotidien devraient être à la portée de tous. 
