@@ -29,7 +29,7 @@ export function GiftCardText() {
             Le règlement se fera : 
             <ul>
                 <li>Par chèque.</li>
-                <li>Par virement au compte de Perrine Lacoste FR76 1382 5002 0004 0572 3314 481 nom et prénom du bénéficiaire en communication.</li>
+                <li>Par virement au compte de Perrine Lacoste FR76 1382 5002 0008 0180 8840 564 nom et prénom du bénéficiaire en communication.</li>
             </ul>
         </p>
         <p>

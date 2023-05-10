@@ -9,15 +9,19 @@ export function PricesList() {
                 <ul style={{listStyleType:'none'}}>
                     <li className={s.li}>
                         <BsFlower3 className={s.flowerIcon}/>
-                        <span className={s.bold} style={{ whiteSpace: 'nowrap' }}>60 €</span> massage 1h à 1h30 selon le besoin du client
+                        <span className={s.bold} style={{ whiteSpace: 'nowrap' }}>90 €</span> massage <span style={{ whiteSpace: 'nowrap' }}><span className={s.bold}>1 h 45</span> ;</span>
                     </li>
                     <li className={s.li}>
                         <BsFlower3 className={s.flowerIcon}/>
-                        <span className={s.bold} style={{ whiteSpace: 'nowrap' }}>45 €</span> massage sur zone ciblé  <span style={{ whiteSpace: 'nowrap' }}>45 min</span> de massage
+                        <span className={s.bold} style={{ whiteSpace: 'nowrap' }}>60 €</span> massage <span style={{ whiteSpace: 'nowrap' }}><span className={s.bold}>1 h</span> ;</span>
                     </li>
                     <li className={s.li}>
                         <BsFlower3 className={s.flowerIcon}/>
-                        <span className={s.bold} style={{ whiteSpace: 'nowrap' }}>30 €</span>  massage sur zone ciblé  <span style={{ whiteSpace: 'nowrap' }}>30 min</span> de massage
+                        <span className={s.bold} style={{ whiteSpace: 'nowrap' }}>45 €</span> massage sur zone ciblé  <span className={s.bold} style={{ whiteSpace: 'nowrap' }}>45 min</span> de <span style={{ whiteSpace: 'nowrap' }}>massage ;</span>
+                    </li>
+                    <li className={s.li}>
+                        <BsFlower3 className={s.flowerIcon}/>
+                        <span className={s.bold} style={{ whiteSpace: 'nowrap' }}>30 €</span>  massage sur zone ciblé  <span className={s.bold} style={{ whiteSpace: 'nowrap' }}>30 min</span> de massage.
                     </li>
                 </ul>
                 <hr className={s.hr}/>
@@ -25,31 +29,38 @@ export function PricesList() {
                 <ul style={{listStyleType:'none'}}>
                     <li className={s.li}>
                         <BsFlower3 className={s.flowerIcon}/>
-                        3 massages 1h à 1h30 = <span className={s.bold} style={{ whiteSpace: 'nowrap' }}>150 €</span> au lieu de <span style={{ whiteSpace: 'nowrap' }}>180 €</span>
+                        <strong>3</strong> massages <span style={{ whiteSpace: 'nowrap' }}>1 h 45</span> = <span className={s.bold} style={{ whiteSpace: 'nowrap' }}>255 €</span> au lieu de <span style={{ whiteSpace: 'nowrap' }}>270 € ;</span>
                         </li>
                     <li className={s.li}>
                         <BsFlower3 className={s.flowerIcon}/>
-                        5 massages  1h à 1h30 = <span className={s.bold} style={{ whiteSpace: 'nowrap' }}>240 €</span> au lieu de <span style={{ whiteSpace: 'nowrap' }}>300 €</span>
+                        <strong>5</strong> massages  <span style={{ whiteSpace: 'nowrap' }}>1 h 45</span> = <span className={s.bold} style={{ whiteSpace: 'nowrap' }}>415 €</span> au lieu de <span style={{ whiteSpace: 'nowrap' }}>450 € ;</span>
                         </li>
                     <li className={s.li}>
                         <BsFlower3 className={s.flowerIcon}/>
-                        10 massages  1h à 1h30 = <span className={s.bold} style={{ whiteSpace: 'nowrap' }}>480 €</span> au lieu de <span style={{ whiteSpace: 'nowrap' }}>600 €</span>
+                        <strong>10</strong> massages  <span style={{ whiteSpace: 'nowrap' }}>1 h 45</span> = <span className={s.bold} style={{ whiteSpace: 'nowrap' }}>800 €</span> au lieu de <span style={{ whiteSpace: 'nowrap' }}>900 € ;</span>
                         </li>
                 </ul>
                 <ul style={{listStyleType:'none'}}>
                     <li className={s.li}>
                         <BsFlower3 className={s.flowerIcon}/>
-                        3 massages sur zone ciblé  <span style={{ whiteSpace: 'nowrap' }}>45 min</span> = <span className={s.bold} style={{ whiteSpace: 'nowrap' }}>120 €</span> au lieu de <span style={{ whiteSpace: 'nowrap' }}>135 €</span>
+                        <strong>3</strong> massages <span style={{ whiteSpace: 'nowrap' }}>1 h</span> = <span className={s.bold} style={{ whiteSpace: 'nowrap' }}>165 €</span> au lieu de <span style={{ whiteSpace: 'nowrap' }}>180 € ;</span>
                     </li>
                     <li className={s.li}>
                         <BsFlower3 className={s.flowerIcon}/>
-                        5 massages sur zone ciblé  <span style={{ whiteSpace: 'nowrap' }}>45 min</span> = <span className={s.bold} style={{ whiteSpace: 'nowrap' }}>190 €</span> au lieu de <span style={{ whiteSpace: 'nowrap' }}>225 €</span>
+                        <strong>5</strong> massages <span style={{ whiteSpace: 'nowrap' }}>1 h</span> = <span className={s.bold} style={{ whiteSpace: 'nowrap' }}>265 €</span> au lieu de <span style={{ whiteSpace: 'nowrap' }}>300 € ;</span>
                     </li>
                     <li className={s.li}>
                         <BsFlower3 className={s.flowerIcon}/>
-                        10 massages sur zone ciblé  <span style={{ whiteSpace: 'nowrap' }}>45 min</span> = <span className={s.bold} style={{ whiteSpace: 'nowrap' }}>330 €</span> au lieu de <span style={{ whiteSpace: 'nowrap' }}>450 €</span>
+                        <strong>10</strong> massages  <span style={{ whiteSpace: 'nowrap' }}>1 h</span> = <span className={s.bold} style={{ whiteSpace: 'nowrap' }}>500 €</span> au lieu de <span style={{ whiteSpace: 'nowrap' }}>600 €.</span>
                     </li>
                 </ul>
+                <hr className={s.hr}/>
+                <p className={s.p}>
+                    Carte de fidélité non nominative. <br/>
+                    Vous pouvez acheter un forfait à plusieurs <br/>
+                    (en famille, entre amis, en entreprise…) <br/>
+                    et vous partager la carte. 
+                </p>
             </div>
         </section>
     )

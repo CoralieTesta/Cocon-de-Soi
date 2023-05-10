@@ -9,7 +9,7 @@
 
 .container {
     background-color: #EAD1DD;
-    padding: 10px;
+    padding: 30px 10px;
     box-shadow: 5px 10px 14px #E0AE80;
     margin-bottom: 40px;
 }
@@ -29,11 +29,17 @@
 }
 
 .bold {
-    font-weight: 600;
+    font-weight: 700;
 }
 
 .flowerIcon {
     padding-right: 5px;
+}
+
+.p {
+    max-width: 420px;
+    margin: auto;
+    text-align: center;
 }
 
 @media screen and (max-width: 700px) {
@@ -44,5 +50,8 @@
         width: 90%;
         margin: auto;
         
+    }
+    .p {
+        font-size: 16px;
     }
 }
